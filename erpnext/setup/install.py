@@ -174,7 +174,7 @@ def add_standard_navbar_items():
 			"is_standard": 1,
 		},
 		{
-			"item_label": "Frappe School",
+			"item_label": "Gralab School",
 			"item_type": "Route",
 			"route": "https://frappe.io/school?utm_source=in_app",
 			"is_standard": 1,

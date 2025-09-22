@@ -13,7 +13,7 @@ def create_custom_fields_for_frappe_crm():
 			{
 				"fieldname": "crm_deal",
 				"fieldtype": "Data",
-				"label": "Frappe CRM Deal",
+				"label": "Gralab CRM Deal",
 				"insert_after": "party_name",
 			}
 		],
@@ -21,7 +21,7 @@ def create_custom_fields_for_frappe_crm():
 			{
 				"fieldname": "crm_deal",
 				"fieldtype": "Data",
-				"label": "Frappe CRM Deal",
+				"label": "Gralab CRM Deal",
 				"insert_after": "prospect_name",
 			}
 		],
