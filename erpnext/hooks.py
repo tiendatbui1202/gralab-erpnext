@@ -7,13 +7,13 @@ app_color = "#e74c3c"
 app_email = "hello@frappe.io"
 app_license = "GNU General Public License (v3)"
 source_link = "https://github.com/frappe/erpnext"
-app_logo_url = "/assets/erpnext/images/erpnext-logo.svg"
+app_logo_url = "/assets/erpnext/images/icon_ERP.svg"
 
 
 add_to_apps_screen = [
 	{
 		"name": "erpnext",
-		"logo": "/assets/erpnext/images/erpnext-logo-blue.png",
+		"logo": "/assets/erpnext/images/icon_ERP.png",
 		"title": "ERPNext",
 		"route": "/app/home",
 		"has_permission": "erpnext.check_app_permission",
@@ -110,7 +110,7 @@ website_generators = ["BOM", "Sales Partner"]
 
 website_context = {
 	"favicon": "/assets/erpnext/images/erpnext-favicon.svg",
-	"splash_image": "/assets/erpnext/images/erpnext-logo.svg",
+	"splash_image": "/assets/erpnext/images/icon_ERP.svg",
 }
 
 # nosemgrep
@@ -478,7 +478,7 @@ scheduler_events = {
 	],
 }
 
-email_brand_image = "assets/erpnext/images/erpnext-logo.jpg"
+email_brand_image = "assets/erpnext/images/icon_ERP.png"
 
 default_mail_footer = """
 	<span>
